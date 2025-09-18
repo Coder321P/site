@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prasit Gupta - Full Stack Developer</title>
+    <meta name="description" content="Portfolio of Prasit Gupta, Full Stack Developer and Software Engineer specializing in modern web technologies and innovative solutions." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script type="module" crossorigin src="/assets/index-ZKsTl8J2.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CYmFl2Ja.css">
+  </head>
+  <body>
+    <div id="particles-js" style="position:fixed;top:0;left:0;width:100vw;height:100vh;z-index:0;"></div>
+    <div id="root"></div>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        if (window.particlesJS) {
+          window.particlesJS('particles-js', {
+            particles: {
+              number: { value: 120, density: { enable: true, value_area: 800 } },
+              color: { value: '#2563eb' },
+              shape: { type: 'circle' },
+              opacity: { value: 1, random: true },
+              size: { value: 4, random: true },
+              line_linked: { enable: true, distance: 150, color: '#2563eb', opacity: 0.2, width: 1 },
+              move: { enable: true, speed: 2, direction: 'none', random: false, straight: false, out_mode: 'out' }
+            },
+            interactivity: {
+              detect_on: 'canvas',
+              events: {
+                onhover: { enable: true, mode: 'repulse' },
+                onclick: { enable: true, mode: 'push' },
+                resize: true
+              },
+              modes: {
+                repulse: { distance: 200, duration: 1 },
+                push: { particles_nb: 10 }
+              }
+            },
+            retina_detect: true
+          });
+        }
+      });
+    </script>
+  </body>
+</html>
